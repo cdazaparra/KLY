@@ -1,9 +1,11 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import Layout from "../layout/Layout";
+//PÁGINAS
 import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
 import Tshir from "../pages/Tshir";
+// COMPONENTE BASE
+import Layout from "../layout/Layout";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,14 +18,6 @@ const router = createBrowserRouter([
           {
             path: "/kly",
             element: <Home></Home>
-          },
-          {
-            path: "/Tshirt",
-            element: <Tshir></Tshir>
-          },
-          {
-            path: "/Tshirt",
-            element: <Tshir></Tshir>
           },
           {
             path: "/Tshirt",
