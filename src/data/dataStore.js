@@ -54,9 +54,14 @@ export const dataNetworks = [
     name: "Facebook",
     id: changeId(),
     src: imgFacebook,
-    href: "https://www.facebook.com/KLYCosmeticShop"
+    href: "https://www.facebook.com/KLYCosmeticShop?mibextid=LQQJ4d"
   },
-  { name: "Instagram", id: changeId(), src: imgInstagram, href: "" },
+  {
+    name: "Instagram",
+    id: changeId(),
+    src: imgInstagram,
+    href: "https://www.instagram.com/klyshopnew/"
+  },
   {
     name: "WhatsApp",
     id: changeId(),
